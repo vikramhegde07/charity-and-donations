@@ -1,0 +1,6 @@
+------------------------------------Charity and Donation project-----------------------------------
+
+Instruction to use database
+ • Install xampp server and open phpMyAdmin page by navigating in browser to localhost/phpMyAdmin/
+ • Create a new database with name “charity_db”.
+ • Drag and drop the sql file to the database “charity_db” OR use import in “charity_db” select sql file in current folder and import everything.
