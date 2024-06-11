@@ -1,0 +1,50 @@
+--------------------------------------------Charity and Donation Project--------------------------------------------------
+How to run the program.
+
+ # install xampp server if not installed.
+ # open "htdocs" folder in xampp server installed folder.
+ # Unzip the file and place "charity and donation" folder inside "htdocs".
+ # start the apache,mysql servers in xampp.
+ # navigate to the project by opening the browser and enter address "localhost/ #folder_name# /".
+ # Example : if the folder name is "charity and donation" the address will be "localhost/Charity and Donations/".
+ # Note: check database manual before running the project otherwise it may give you errors.
+
+---------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------Default Users added by project creator----------------------------------------
+
+--------users credentials-----------------
+
+username : developer
+email    : dev@gmail.com
+password : dev123
+
+username : zeta
+email    : zeta@gmail.com
+password : zeta
+
+--------Admin credentials-----------------
+
+adminName : admin
+email     : admin@gmail.com
+password  : admin
+
+adminName : test
+email     : test@gmail.com
+password  : test
+
+--------------------------------------------------------------------------------------------------------------------------------
+----------------Informations and Notes -------------------------------
+# "/includes" contains all including files( css, js, fonts, scss, all background images, admin profile images, user profile images).
+# "/admin" contains all admin related files( admin pages, functions, gallery images, campaign images).
+# "/DATABASE" contains the instruction manual for the database as well as database file.
+# Note: Do not delete or remove the database file if its not necessary.
+# Note: Do not delete any images in any folders if its not necessary.
+# Note: Users and Admins can change the profile images after logging in using the project.
+# Note: To change background or images in about section place the images in "/includes/image" and change the name in php file.
+# Note: You can add payment gateway to "campaign_single.php", the razorpay method is coded defaultly and will be commented out.
+# Note: The donate button in campaign_single.php will directly send the users to "thanks.php" page if you integrate the payment gateway make donationform submit after successfull payment.
+# Note: You should understand the code of payment method before making any changes otherwise we will not bear any responsibility if the project stops execution.
+
+---------------------------------------------------------------------------------------------------------------------------------
+
